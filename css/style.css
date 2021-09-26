@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: 'digital_dismayregular';
+    src: url('font/digital_dismay-webfont.woff2') format('woff2');
+        
+    font-weight: normal;
+    font-style: normal;
+}
+.jumbotron{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: rgb(162, 247, 247);
+
+}
+
+
+canvas{
+    margin-left:-160px ;
+    position: absolute;
+    margin-top: 10px;
+    border: 10px solid rgb(15, 14, 14);
+    
+    box-shadow: 0 0 15px 3px #250d01,
+                inset 0 0 10px 10px #023114;
+                opacity: 85%;
+}
+
+#score_color{
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 700px;
+    background-color:rgb(14, 13, 12);
+     border: 10px solid rgb(245, 244, 244);
+     box-shadow: 0 0 10px 4px rgb(29, 26, 26);
+                inset: 0 0 10px 10px rgb(248, 246, 246);
+     justify-content: center;
+     color: white;
+    
+    }
+    h1{
+        font-size:50px;
+        padding: 20px;
+    }
+#score{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    top: auto;
+    font-family:'digital_dismayregular';
+    
+
+}
+
+
+
+
+
+#hs{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    position: relative;
+    
+    font-family:'digital_dismayregular';
+}
+#color{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+#colorn{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+    right: -100px;
+
+}
+button{
+    
+    margin: 20px 20px 20px 20px;
+    z-index: 2000;
+    
+}
+#box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-color:10px solid black ;
+    box-shadow: 0 0 10px 6px rgb(29, 26, 26);
+                inset: 5px 10px 10px 10px rgb(248, 246, 246);
+                
+   
+    height: 100px;
+    width: 300px;
+    top:410px;
+    left: 100px;
+}

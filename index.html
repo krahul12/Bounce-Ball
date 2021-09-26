@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+     <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+        <title>Break-Occer</title>
+    </head>
+    <body>
+        <header class="jumbotron text-center">
+            <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" >BREAK-OCCER</h1>
+            
+
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6" >
+                    <canvas height="700px" width="700px" id="game">
+                        
+
+                    </canvas>
+
+            
+                </div>
+                <div class="col-6">
+                    <div id="score_color" class="row">
+                        <div id="s">
+                            <h1>SCORE</h1>
+                            <div id="score">
+                                <p>0</p>
+
+                            </div>
+
+                        </div>
+                        <div id="h">
+                            <h1>HIGH SCORE</h1>
+                            <div id="hs">
+                                <p>0</p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+
+                    </div>
+                    <div id="color" class="row">                   
+                        
+                        <div id="colorn">
+                            
+                            <button onclick="redball();" class="btn btn-danger" id="r">red</button>
+                            <button onclick="blueball();" class="btn btn-info" id="b">blue</button>
+                            <button onclick="yellowball();"class="btn btn-warning" id="y">yellow</button>
+
+                        </div>
+                        <div id="box">
+
+                        </div>
+                        
+                    </div>
+                    
+                    
+
+
+                </div>
+               
+            </div>
+        </div>
+    </body><script src="script.js" type="text/javascript" charset="utf-8"></script>
+    
+</html>
