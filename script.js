@@ -34,7 +34,7 @@ var ball ={
     speed:5,
 }
 const bg = new Image();
-bg.src="file:///D:/git%20test/pong%20game/css/image/i4.jpg";
+bg.src="file:///D:/git%20test/Break-occer/css/image/i4.jpg";
 
 function outline(){
     ct.beginPath();
