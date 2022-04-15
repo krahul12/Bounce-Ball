@@ -34,7 +34,7 @@ var ball ={
     speed:5,
 }
 const bg = new Image();
-bg.src="file:///D:/git%20test/Break-occer/i4.jpg";
+bg.src="https://github.com/chef-itachi/Break-Occer/blob/master/i4.jpg";
 
 function outline(){
     ct.beginPath();
