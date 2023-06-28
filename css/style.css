@@ -13,7 +13,10 @@
 
 }
 
-
+.container{
+    display:flex;
+    direction:row;
+    
 canvas{
     margin-left:-160px ;
     position: absolute;
