@@ -6,6 +6,12 @@
     font-weight: normal;
     font-style: normal;
 }
+.bt1{
+    background-color:#f44336;}
+.bt2{
+    background-color:#008CBA;}
+.bt3{
+    background-color:#ffff66;}
 .jumbotron{
     text-align:center;
     padding: 10px 10px;
