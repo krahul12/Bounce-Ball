@@ -7,8 +7,7 @@
     font-style: normal;
 }
 .jumbotron{
-    justify-content:center;
-    align-items:center;
+    text-align:center;
     padding: 10px 10px;
     margin: 10px 10px;
     background-color: rgb(162, 247, 247);
